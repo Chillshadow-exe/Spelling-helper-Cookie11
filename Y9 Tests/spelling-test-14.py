@@ -50,9 +50,9 @@ while True:
     if ANSWER.lower() == word.lower():
         print("\nCorrect!")
         rights.append(word)
-        print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        print("\n" * 30)
     else:
-        print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        print("\n" * 30)
         print("Wrong :( \n The word was: " + word.lower() + "\n Your word was: " + ANSWER)
         wrongs += 1
 
@@ -79,9 +79,9 @@ while True:
     if ANSWER.lower() == word.lower():
         print("\nCorrect!")
         rights.append(word)
-        print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        print("\n" * 30)
     else:
-        print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        print("\n" * 30)
         print("Wrong :( \n The word was: " + word.lower() + "\n Your word was: " + ANSWER)
         wrongs += 1
 
